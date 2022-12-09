@@ -1,0 +1,42 @@
+{
+    "name": "islomzoda/yandexmarketupdatestock",
+    "description": "Данный паекеть приедназначень для обнавление осотатков 1Яндекс мМаркет",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kuzibav Muhammad",
+            "email": "islomzoda20@yandex.ru",
+            "homepage": "https://jonee.ru"
+        }
+    ],
+    "homepage": "https://github.com/islomzoda/yandexmarketupdatestock",
+    "keywords": ["Laravel", "YandexMarketUpdateStock"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "../../../vendor/phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Islomzoda\\YandexMarketUpdateStock\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Islomzoda\\YandexMarketUpdateStock\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Islomzoda\\YandexMarketUpdateStock\\YandexMarketUpdateStockServiceProvider"
+            ],
+            "aliases": {
+                "YandexMarketUpdateStock": "Islomzoda\\YandexMarketUpdateStock\\Facades\\YandexMarketUpdateStock"
+            }
+        }
+    }
+}
