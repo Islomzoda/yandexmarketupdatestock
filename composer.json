@@ -16,7 +16,7 @@
         "illuminate/support": "~9"
     },
     "require-dev": {
-        "../../../vendor/phpunit/phpunit": "~9.0",
+        "phpunit/phpunit": "~9.0",
         "orchestra/testbench": "~7"
     },
     "autoload": {
